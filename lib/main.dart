@@ -93,7 +93,7 @@ class Halaman extends StatelessWidget {
       ),
       SizedBox(height: 10),
       Text(
-        "Anak Teknik Informatika terbiasa dengan codingan.",
+        "Semangat terus kalau eror tinggal nanya ke AI aja ",
         style: TextStyle(
           fontStyle: FontStyle.italic,
           color: Colors.white70,
