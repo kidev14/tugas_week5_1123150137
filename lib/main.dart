@@ -86,7 +86,7 @@ class Halaman extends StatelessWidget {
       Text(
         "Rizky Adekatuasa",
         style: TextStyle(
-          fontSize: 30,
+          fontSize: 40,
           fontWeight: FontWeight.bold,
           color: Colors.white,
         ),
