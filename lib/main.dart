@@ -32,6 +32,7 @@ class Halaman extends StatelessWidget {
           Icon( Icons.access_alarm),
           SizedBox(width: 10),
           Icon(Icons.search),
+          
           SizedBox(width: 10),
           Icon(Icons.account_circle),
           SizedBox(width: 10),
@@ -43,7 +44,7 @@ class Halaman extends StatelessWidget {
         end: Alignment.bottomCenter,
         colors: [
           Colors.deepOrange, // warna atas
-          Colors.white,      // warna bawah
+          Color.fromARGB(255, 238, 8, 8),      // warna bawah
         ],
       ),
     ),
@@ -74,8 +75,8 @@ class Halaman extends StatelessWidget {
            begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
           colors: [
-            Colors.cyan, 
-            Colors.orange
+            const Color.fromARGB(255, 30, 7, 238), 
+            const Color.fromARGB(255, 0, 1, 14)
             ],
          
         ),
