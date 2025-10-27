@@ -88,7 +88,7 @@ class Halaman extends StatelessWidget {
         style: TextStyle(
           fontSize: 40,
           fontWeight: FontWeight.bold,
-          color: Colors.white,
+          color: const Color.fromARGB(255, 15, 0, 0),
         ),
       ),
       SizedBox(height: 10),
